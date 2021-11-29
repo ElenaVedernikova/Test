@@ -10,7 +10,7 @@ public class OzonPage {
     private SelenideElement horizontalMenu = $("[data-widget=\"horizontalMenu\"]");
 
     public ProductPage menuElectronics() {
-        closeButton.click();
+//        closeButton.click();
         horizontalMenu.$$(".g5e2").find(exactText("Электроника")).click();
         return new ProductPage();
     }
